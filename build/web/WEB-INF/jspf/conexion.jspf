@@ -1,0 +1,8 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ taglib prefix="sql" uri="http://java.sun.com/jsp/jstl/sql" %>
+<%@ page pageEncoding="UTF-8" %>
+<sql:setDataSource driver="org.postgresql.Driver"
+                   url="jdbc:postgresql://localhost:5432/jseproyecto"
+                   user="postgres"
+                   password="123456"
+                   var="ds"/>
